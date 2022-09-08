@@ -13,6 +13,10 @@ RabbitMQ is a message broker
 
 Installation 
 ```
+sudo apt install erlang
+
+sh install_rabbit.sh
+
 npm install amqplib
 ```
 use
