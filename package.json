@@ -1,0 +1,16 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "this is about RabbitMQ",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node index.js",
+    "consume": "node consumer.js"
+  },
+  "author": "D N Singh",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "rmqlite": "github:KealPub/node-rabbit-lite"
+  }
+}
